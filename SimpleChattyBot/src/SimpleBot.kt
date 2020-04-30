@@ -6,7 +6,7 @@ import kotlin.test.assertTrue
 
 val scanner = Scanner(System.`in`) // Do not change this line
 
-fun main() {
+fun main(args: Array<String>) {
     greet("Aid", "2020") // change it as you need
     remindName()
     guessAge()
