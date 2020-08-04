@@ -1,1 +1,1 @@
-There are some complited projects from hyperskill.org platform.
+There are some finished projects from hyperskill.org platform.
