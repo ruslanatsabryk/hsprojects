@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" content="text/html" http-equiv="Content-Type">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        <title>Extraterrestrial news</title>
+    </head>
+
+<body>
+    <h2>{{ title }}</h2>
+    <p>{{ created }}</p>
+    <p>{{ text }}</p>
+    <a href="/news/" target="_blank">Main page</a>
+</body>
+
+</html>
